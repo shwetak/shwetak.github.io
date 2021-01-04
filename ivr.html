@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- title -->
+    <title>AlivePbx</title>
+    <!-- bootstarap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- create-campaign css -->
+    <link rel="stylesheet" href="assets/css/create-campaign.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- ivr css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/ivr.css">
+    <!-- themify css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/themify-icons/themify-icons.css">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <!-- login-register css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/login-register.css">
+    <!-- color css -->
+    <link id="main" rel="stylesheet" type="text/css" href="assets/css/color_01.css">
+    <link id="theme" rel="stylesheet" type="text/css" href="assets/css/color_01.css">
+
+</head>
+
+<body>
+    <!-- ======================
+     Pre-loader
+     ====================== -->
+    <div class="preloader">
+        <img src="assets/images/preloader.svg" class="img-fluid" alt="preloader">
+    </div>
+    <!-- ======================
+     page-wrapper
+     ====================== -->
+    <div class="page-wrapper org-theme toggled">
+        <a id="show-sidebar" class="btn btn-sm" href="#">
+            <i class="ti-angle-double-right"></i>
+        </a>
+        <!-- ======================
+     sidebar-wrapper
+     ====================== -->
+        <nav id="sidebar" class="sidebar-wrapper">
+            <div class="sidebar-content">
+                <div class="sidebar-brand">
+                    <a href="#">AlivePbx</a>
+
+                    <div id="close-sidebar">
+                        <i class="ti-close"></i>
+                    </div>
+                    <!-- end of close-sidebar -->
+                </div>
+                <!-- end of sidebar-brand -->
+                <!-- sidebar-search  -->
+                <!-- ======================
+     sidebar-menu 
+     ====================== -->
+                <div class="sidebar-menu">
+                    <ul>
+                        <li class="side-list active"><a href="introduction.html">Introduction</a></li>
+
+
+                        <li class="sidebar-dropdown">
+
+                            <a><span>AlivePbx User Guide</span></a>
+
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li><a href="dashboard.html">Dashboard</a></li>
+                                    <li><a href="call-reports.html">Call Reports</a></li>
+                                    <li><a href="usage.html">Usage</a></li>
+                                    <li><a href="real-time.html">Real-time</a></li>
+
+                                </ul>
+                            </div>
+
+                        </li>
+
+
+                        <li class="sidebar-dropdown">
+                            <a><span>Campaign</span></a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li><a href="create-campaign.html">Create Campaign</a></li>
+                                    <li><a href="manage-campaign.html">Manage Campaign</a></li>
+                                    <li><a href="manage-extension.html">Manage Extension</a></li>
+
+                                </ul>
+                            </div>
+                        </li>
+
+
+                        <li class="sidebar-dropdown">
+                            <a><span>Manage Users</span></a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li><a href="manage-buyer.html">Manage Buyer</a></li>
+                                    <li><a href="manage-campaign.html">Manage Campaign</a></li>
+
+                                    <li><a href="manage-publishers.html">Manage Publishers</a></li>
+
+                                    <li><a href="manage-queue.html">Manage Queue</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="side-list active"><a href="ivr.html">IVR</a></li>
+                        <li class="sidebar-dropdown">
+                            <a><span>Phone System</span></a>
+                            <div class="sidebar-submenu">
+                                <ul>
+
+                                    <li><a href="ir.html">IR</a></li>
+
+                                    <li><a href="manage-queue.html">Manage Queue</a></li>
+
+                                    <li><a href="manage-extension.html">Manage Extension</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+
+
+                        <li class="sidebar-dropdown">
+                            <a><span>Call Detail Records</span></a>
+                            <div class="sidebar-submenu">
+                                <ul>
+
+                                    <li><a href="cdr-records.html">CDR Records</a></li>
+
+                                    <li><a href="queue-cdr.html">Queue CDR</a></li>
+
+                                    <li><a href="queue-cdr-outbound.html">Queue CDR Outbound</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a><span>TFN</span></a>
+                            <div class="sidebar-submenu">
+                                <ul>
+
+                                    <li><a href="view-tfn.html">View TFN</a></li>
+
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- end of sidebar-submenu -->
+
+
+
+
+                        <li class="side-list active"><a href="login_register.html">Signin</a></li>
+
+                    </ul>
+                </div>
+                <!-- sidebar-menu  -->
+            </div>
+            <!-- sidebar-content  -->
+        </nav>
+        <!-- =============================
+       page-content 
+       =============================-->
+
+        <main class="page-content">
+
+            <!--=============================
+      doc-head-section 
+      =============================-->
+            <div class="doc-head-section">
+                <div class="header">
+                    <nav class="navbar navbar-expand-lg navbar-light with-sidebar">
+                        <a class="navbar-brand brand-name" href="#">AlivePbx</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="ti-menu"></span>
+                        </button>
+                        <!-- end of navbar-toggler -->
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                                <li class="nav-item"><a class="nav-link" href="pricing.html">PRICING</a></li>
+                                <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                                <li class="nav-item"><a class="nav-link" href="features.html">FEATURES</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+                            </ul>
+                            <!-- end of navbar-nav -->
+                            <!--=============================
+              search-wrapper 
+              =============================-->
+                            <form class="form-inline my-2 my-lg-0">
+                                <div class="search-wrapper">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                </div>
+                            </form>
+                            <!-- end of search-wrapper -->
+                        </div>
+                        <!-- end of collapse -->
+                    </nav>
+                    <!-- end of navbar -->
+                </div>
+                <!-- end of header -->
+            </div>
+            <!-- end of doc-head-section -->
+            <!-- =============================
+         doc-head-section 
+         =============================-->
+
+
+
+            <div class="clearfix main-content">
+                <section class="content">
+                    <div class="container">
+
+                        <div class="row">
+                            <div class="col-md-8 col-12">
+                                <h3>IVR:</h3>
+                                <p class="paragraph">AlivePBX provides a well-designed software system that can help to
+                                    increase customer satisfaction & improve contact center operations .The Digital
+                                    Transformation best practices, including real time routing, voice recognition and
+                                    Interactive voice response solutions & machine learning powered automation
+                                    optimization, to achieve the contact center.<br>IVR telephony is a technology to
+                                    make your call automation software work for customers, not against them. An IVR
+                                    system accepts a combination of voice telephone input & touch-tone keypad selection
+                                    and provides the appropriate response in the form of Voice, callback, email and the
+                                    other contact methods<br>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- row closed -->
+
+
+
+
+
+                        <div class="row">
+                            <div class="col-md-8 col-12">
+
+                                <p class="p1">To check the IVR’s details click on the
+                                    <strong>’IVR’</strong> & you can see
+                                    three categories in IVR.
+                                </p>
+                                <ul>
+                                    <li>IVR-Music</li>
+                                    <li>Manage IVR</li>
+                                    <li>Add IVR</li>
+                                </ul>
+                                <p class="p1"><strong>IVR Music&#58;</strong></p>
+                                <div class="ivr_image">
+                                    <img src="assets/images/ivr-image.jpg" alt="ivr-image"
+                                        class="img-fluid content my-2">
+                                    <p class="p1">You can Change Your IVR-Music as per your business requirement.</p>
+                                </div>
+                                <!-- ivr_image closed -->
+
+                                <div class="ivr_image">
+                                    <img src="assets/images/ivr-image2.jpg" alt="ivr-image"
+                                        class="img-fluid content my-2">
+                                </div>
+                                <!-- ivr_image closed -->
+
+
+                                <div class="note-list">
+                                    <ul>
+                                        <li>
+                                            <p class="p1">Go to <a
+                                                    href="https://route.alivepbx.com/#/dashboard/ivr-music this link .click ">on
+                                                    the user for that you wish to modify the music </a>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="p1">Click on the <strong>Edit</strong>&nbsp;icon.</p>
+                                        </li>
+                                        <li>
+                                            <p class="p1">In <strong>‘Music File Upload’</strong>&nbsp;you can upload
+                                                new
+                                                music from your list.</p>
+                                        </li>
+                                        <li>
+                                            <p class="p1">Click on the <strong>‘Edit IVR-Music’</strong>&nbsp;button.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="p1">And you are successfully changed your
+                                                user’s&nbsp;<strong>IVR-music.</strong> </p>
+                                        </li>
+                                        <li>
+                                            <p class="p1">If you do not want to modify you music, click on the
+                                                <strong>‘Cancel’</strong>&nbsp;button.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="p1">If you want to delete the user from the IVR, click on the
+                                                <strong>‘Delete’</strong>&nbsp;button.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="p1">You can also add the Users in your IVR List with music.</p>
+                                        </li>
+
+                                    </ul>
+                                    <!-- ul closed -->
+                                </div>
+                                <!-- note-list closed -->
+
+                                <!-- Manage IVR: -->
+                                <div class="manage-ivr">
+                                    <p class="p1"><strong>Manage IVR&#58;</strong></p>
+                                    <div class="note-list">
+                                        <ul>
+
+                                            <li>
+                                                <p class="p1">Go to
+                                                    the<a
+                                                        href="https://route.alivepbx.com/#/dashboard/ivr-entry">&nbsp;link.</a>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="p1">Click on the Manage IVR.</p>
+                                            </li>
+                                            <li>
+                                                <p class="p1">Here you can see the list of IVR’s with all detail. </p>
+                                            </li>
+                                            <li>
+                                                <p class="p1">Name shows the assigned IVR’s name </p>
+                                            </li>
+                                            <li>
+                                                <p class="p1">Directdial would be disable always </p>
+                                            </li>
+                                            <li>
+                                                <p class="p1">Description defines the IVR description that is assigned
+                                                    to the IVR. </p>
+                                            </li>
+                                        </ul>
+
+                                        <div class="ivr_image">
+                                            <img src="assets/images/ivr-image3.jpg" alt="ivr-image"
+                                                class="img-fluid content my-2">
+                                        </div>
+                                        <!-- ivr_image closed -->
+
+                                    </div>
+                                    <!-- note-list closed-->
+                                </div>
+                                <!-- Manage IVR: closed -->
+
+                                <!-- ADD IVR -->
+                                <div class="add-ivr">
+                                    <p class="p1"><strong>ADD IVR&#58;</strong></p>
+                                    <div class="note-list">
+                                        <ul>
+                                            <li>
+                                                <p class="p1">To Edit the IVR Click on the edit icon which you can see
+                                                    in the
+                                                    User’s list.</p>
+                                            </li>
+                                            <li>
+                                                <p class="p1">You can see the below image <strong>‘ADD
+                                                        IVR’</strong>&nbsp;page
+                                                    on the screen.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="p1">You can directly add IVR by clicking on
+                                                    the&nbsp;<strong>IVR >
+                                                        Add IVR</strong>
+                                                    option in menu.</p>
+                                            </li>
+                                        </ul>
+                                        <div class="ivr_image">
+                                            <img src="assets/images/ivr-image4.jpg" alt="ivr-image"
+                                                class="img-fluid content my-2">
+                                        </div>
+                                        <!-- ivr_image closed -->
+                                        <ul>
+                                            <li>
+                                                <p class="p1">Enter the Name </p>
+                                            </li>
+                                            <li>
+                                                <p class="p1">Enter the description of IVR.</p>
+                                            </li>
+                                            <li>
+                                                <p class="p1">Enter the Announcement (the opening music when call starts
+                                                    to connect).</p>
+                                            </li>
+                                            <li>
+                                                <p class="p1">Select the Publisher’s name.</p>
+                                            </li>
+                                            <li>
+                                                <p class="p1">Click on the <strong>‘Save and
+                                                        Continue’</strong>&nbsp;Button.
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="p1">You will see the next page on the screen .</p>
+                                            </li>
+
+
+                                        </ul>
+                                        <div class="ivr_image">
+                                            <img src="assets/images/ivr-image5.jpg" alt="ivr-image"
+                                                class="img-fluid content my-2">
+                                        </div>
+                                        <ul>
+                                            <li>
+                                                <p class="p1">Enter the selection that is a number where can route the
+                                                    calls according to your number.</p>
+                                            </li>
+                                            <li>
+                                                <p class="p1">Enter Buyer Number.</p>
+                                            </li>
+                                            <li>
+                                                <p class="p1">Click on the <Strong>Save and continue button.</Strong>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="p1">Set it Live </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- </div> -->
+
+                                </div>
+                                <!-- col closed -->
+                            </div>
+                            <!-- row closed -->
+                        </div>
+                        <!-- container closed -->
+                </section>
+                <!--  section closed-->
+            </div>
+            <!-- end of content-section -->
+
+
+
+
+            <!--=============================
+    chat-box
+    =============================-->
+            <div id="body">
+                <div id="chat-circle" class="btn btn-raised">
+                    <div id="chat-overlay"></div>
+                    <i class="ti-location-arrow"></i>
+                </div>
+
+                <div class="chat-box">
+                    <div class="chat-box-header">
+                        ChatBox
+                        <span class="chat-box-toggle"><i class="ti-close"></i></span>
+                    </div>
+                    <div class="chat-box-body">
+                        <div class="chat-box-overlay">
+                        </div>
+                        <div class="chat-logs">
+
+                        </div>
+                        <!--chat-log -->
+                    </div>
+                    <div class="chat-input">
+                        <form>
+                            <input type="text" id="chat-input" placeholder="Send a message..." />
+                            <button type="submit" class="chat-submit" id="chat-submit"><i
+                                    class="ti-arrow-right"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- end of chat box -->
+    </div>
+    <!-- end of main-content-inner -->
+
+    <!--=====================
+            Footer
+            =====================-->
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#">Getting Started</a>
+                </li>
+                <li><a href="#">Layout</a>
+                </li>
+                <li><a href="#">Content</a>
+                </li>
+                <li><a href="#">Components</a>
+                </li>
+                <li><a href="#">Utilities</a>
+                </li>
+            </ul>
+        </div>
+        <!-- end of container -->
+    </footer>
+    <!-- end of footer -->
+
+    <div class="color-palette">
+        <a id="color-bar"><i class="ti-settings"></i></a>
+        <h4>Theme</h4>
+        <ul class="clearfix">
+            <li>
+                <a href="#" id="blue-wlt"></a>
+            </li>
+            <li>
+                <a href="#" id="gradient-wlt"></a>
+            </li>
+            <li>
+                <a href="#" id="green-wlt"></a>
+            </li>
+            <li>
+                <a href="#" id="red-wlt"></a>
+            </li>
+            <li>
+                <a href="#" id="img-wlt"></a>
+            </li>
+        </ul>
+    </div>
+
+    </main>
+
+    </div>
+    <!-- jquery -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- popper js-->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- bootstrap js-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- slideNav js -->
+    <script src="assets/js/slideNav.js"></script>
+    <!-- custom js -->
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

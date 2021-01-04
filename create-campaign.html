@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- title -->
+    <title>AlivePbx</title>
+    <!-- bootstarap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- create-campaign css -->
+    <link rel="stylesheet" href="assets/css/create-campaign.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- create-campaign css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/create-campaign.css">
+    <!-- themify css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/themify-icons/themify-icons.css">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <!-- login-register css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/login-register.css">
+    <!-- color css -->
+    <link id="main" rel="stylesheet" type="text/css" href="assets/css/color_01.css">
+    <link id="theme" rel="stylesheet" type="text/css" href="assets/css/color_01.css">
+
+</head>
+
+<body>
+    <!-- ======================
+     Pre-loader
+     ====================== -->
+    <div class="preloader">
+        <img src="assets/images/preloader.svg" class="img-fluid" alt="preloader">
+    </div>
+    <!-- ======================
+     page-wrapper
+     ====================== -->
+    <div class="page-wrapper org-theme toggled">
+        <a id="show-sidebar" class="btn btn-sm" href="#">
+            <i class="ti-angle-double-right"></i>
+        </a>
+        <!-- ======================
+     sidebar-wrapper
+     ====================== -->
+        <nav id="sidebar" class="sidebar-wrapper">
+            <div class="sidebar-content">
+                <div class="sidebar-brand">
+                    <a href="#">AlivePbx</a>
+
+                    <div id="close-sidebar">
+                        <i class="ti-close"></i>
+                    </div>
+                    <!-- end of close-sidebar -->
+                </div>
+                <!-- end of sidebar-brand -->
+                <!-- sidebar-search  -->
+                <!-- ======================
+     sidebar-menu 
+     ====================== -->
+                <div class="sidebar-menu">
+                    <ul>
+                        <li class="side-list active"><a href="introduction.html">Introduction</a></li>
+
+
+                        <li class="sidebar-dropdown">
+
+                            <a><span>AlivePbx User Guide</span></a>
+
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li><a href="dashboard.html">Dashboard</a></li>
+                                    <li><a href="call-reports.html">Call Reports</a></li>
+                                    <li><a href="usage.html">Usage</a></li>
+                                    <li><a href="real-time.html">Real-time</a></li>
+
+                                </ul>
+                            </div>
+
+                        </li>
+
+
+                        <li class="sidebar-dropdown">
+                            <a><span>Campaign</span></a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li><a href="create-campaign.html">Create Campaign</a></li>
+                                    <li><a href="manage-campaign.html">Manage Campaign</a></li>
+                                    <li><a href="manage-extension.html">Manage Extension</a></li>
+
+                                </ul>
+                            </div>
+                        </li>
+
+
+                        <li class="sidebar-dropdown">
+                            <a><span>Manage Users</span></a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li><a href="manage-buyer.html">Manage Buyer</a></li>
+                                    <li><a href="manage-campaign.html">Manage Campaign</a></li>
+
+                                    <li><a href="manage-publishers.html">Manage Publishers</a></li>
+
+                                    <li><a href="manage-queue.html">Manage Queue</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="side-list active"><a href="ivr.html">IVR</a></li>
+                        <li class="sidebar-dropdown">
+                            <a><span>Phone System</span></a>
+                            <div class="sidebar-submenu">
+                                <ul>
+
+                                    <li><a href="ir.html">IR</a></li>
+
+                                    <li><a href="manage-queue.html">Manage Queue</a></li>
+
+                                    <li><a href="manage-extension.html">Manage Extension</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+
+
+                        <li class="sidebar-dropdown">
+                            <a><span>Call Detail Records</span></a>
+                            <div class="sidebar-submenu">
+                                <ul>
+
+                                    <li><a href="cdr-records.html">CDR Records</a></li>
+
+                                    <li><a href="queue-cdr.html">Queue CDR</a></li>
+
+                                    <li><a href="queue-cdr-outbound.html">Queue CDR Outbound</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a><span>TFN</span></a>
+                            <div class="sidebar-submenu">
+                                <ul>
+
+                                    <li><a href="view-tfn.html">View TFN</a></li>
+
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- end of sidebar-submenu -->
+
+
+
+
+                        <li class="side-list active"><a href="login_register.html">Signin</a></li>
+
+                    </ul>
+                </div>
+                <!-- sidebar-menu  -->
+            </div>
+            <!-- sidebar-content  -->
+        </nav>
+        <!-- =============================
+       page-content 
+       =============================-->
+        <main class="page-content">
+
+            <!--=============================
+      doc-head-section 
+      =============================-->
+            <div class="doc-head-section">
+                <div class="header">
+                    <nav class="navbar navbar-expand-lg navbar-light with-sidebar">
+                        <a class="navbar-brand brand-name" href="#">AlivePbx</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="ti-menu"></span>
+                        </button>
+                        <!-- end of navbar-toggler -->
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                                <li class="nav-item"><a class="nav-link" href="pricing.html">PRICING</a></li>
+                                <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                                <li class="nav-item"><a class="nav-link" href="features.html">FEATURES</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+                            </ul>
+                            <!-- end of navbar-nav -->
+                            <!--=============================
+              search-wrapper 
+              =============================-->
+                            <form class="form-inline my-2 my-lg-0">
+                                <div class="search-wrapper">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                </div>
+                            </form>
+                            <!-- end of search-wrapper -->
+                        </div>
+                        <!-- end of collapse -->
+                    </nav>
+                    <!-- end of navbar -->
+                </div>
+                <!-- end of header -->
+            </div>
+            <!-- end of doc-head-section -->
+            <!-- =============================
+         doc-head-section 
+         =============================-->
+
+
+
+            <div class="clearfix main-content">
+                <section class="content">
+                    <div class="container">
+
+                        <div class="row">
+                            <div class="col-md-8 col-12">
+                                <h3>Account Setup (How To Create your first Campaign)</h3>
+                                <p class="paragraph"><strong>Create Campaign&#58;</strong>In AlivePBX platform all calls
+                                    route through campaign, Whenever
+                                    you
+                                    start create your campaign Follow the below Steps .
+                                </p>
+                            </div>
+                        </div>
+                        <!-- row closed -->
+
+
+
+
+
+                        <div class="row">
+                            <div class="col-md-8 col-12">
+                                <div class="create_compaign_image">
+                                    <img src="assets/images/create-compaign.jpg" alt="create-compaign"
+                                        class="img-fluid content my-3">
+                                    <p class="p1">Create your campaign in just 4 steps. </p>
+                                </div>
+                                <!-- create_compaign_image closed -->
+
+                                <!-- Note -->
+
+                                <div class="note">
+                                    <ol class="note-list">
+                                        <li>
+                                            <p class="p1"><b>Start your Campaign</b></p>
+                                        </li>
+                                        <li>
+                                            <p class="p1"><b>Publisher & Routing</b></p>
+                                        </li>
+                                        <li>
+                                            <p class="p1"><b>Add a Target</b></p>
+                                        </li>
+                                        <li>
+                                            <p class="p1"><b>Set it Live</b></p>
+                                        </li>
+                                    </ol>
+                                </div>
+                                <!-- Note closed -->
+
+                                <!-- start compaign -->
+                                <div class="start__compaign">
+                                    <h6><b>STEP 1- START YOUR CAMPAIGN</b></h6>
+                                    <ol class="start_compaign">
+                                        <li>Click on Campaign & select Create new campaign. Enter the below details.
+                                        </li>
+                                    </ol>
+                                    <ul>
+                                        <li>Enter your Campaign name.
+                                            “It will be define to route at the AlivePBX platform & Reporting interface
+                                            to see
+                                            the
+                                            details of all the calls .”</li>
+                                        <li>Select Buffer Time .
+                                            “It will be define as per the Qualified Calls & those will be counted which
+                                            has
+                                            duration
+                                            more than 10 sec.”</li>
+
+                                        <li>Select price per call.</li>
+                                        <li>Select TimeZone.</li>
+                                        <li>Click on Save and Continue </li>
+
+                                    </ul>
+                                </div>
+                                <!-- end of start__compaign -->
+
+
+
+                                <!-- end of content-p -->
+                                <div class="create_compaign_image">
+
+                                    <img src="assets/images/create-compaign2.jpg" alt="create-compaign"
+                                        class="img-fluid content my-4">
+                                </div>
+
+                                <!-- create_compaign_image closed -->
+
+                                <!-- PUBLISHER AND ROUTING -->
+                                <div class="start__publisher">
+                                    <h6><b>Step 2- PUBLISHER AND ROUTING</b></h6>
+                                    <p class="p1">In which you can get a unique tracking number where you or your
+                                        partners can send
+                                        calls
+                                        to
+                                        them.</p>
+                                    <ol class="start_publisher">
+                                        <li>Click on ADD PUBLISHER for new or Select an existing Publisher .
+                                            After Clicking on Add publisher you will see new window on the screen ,there
+                                            you
+                                            need to
+                                            enter your Publisher name, Email ID, Contact, Price per TFNs, Password &
+                                            Role as
+                                            publisher .
+                                        </li>
+                                    </ol>
+                                    <img src="assets/images/create-compaign3.jpg" alt="create-compaign"
+                                        class="img-fluid content">
+
+
+                                    <ol class="start_publisher">
+                                        <li>Select Routing status from drop down list.
+                                        </li>
+                                    </ol>
+                                    <ul>
+                                        <li>In-side Route.</li>
+                                        <li>Outside Route.</li>
+                                        <li>IVR.</li>
+                                    </ul>
+                                    <p class="p1"> Click on <b>SAVE AND CONTINUE</b></p>
+
+                                </div>
+                                <!-- end of PUBLISHER AND ROUTING -->
+
+
+
+
+
+                                <!-- ADD A TARGET -->
+                                <div class="adding_target my-3">
+                                    <h6><b>Step 3- ADD A TARGET</b></h6>
+                                    <ul class="adding__target">
+                                        <li> Targets are the receiving party of all the calls routed with AlivePBX. The
+                                            call now
+                                            starts with a call to a number generated by you or a publisher & ends with
+                                            the
+                                            target
+                                            accepting the answering the call. A Target is defined by an inbound phone
+                                            number .In
+                                            this you can Forword your calls to buyers, publisher & Queue or anywhere you
+                                            would
+                                            like
+                                            them to go.</li>
+                                    </ul>
+
+                                </div>
+                                <!-- end of ADD A TARGET  -->
+
+
+                                <!-- Note -->
+                                <div class="note-list my-3" style="background-color:lightblue">
+                                    <p class="p1">NOTE: Enter the Queue Number if “In-side Route” selected in routing
+                                        option at
+                                        Step 2.
+                                    </p>
+                                </div>
+                                <!-- Note closed -->
+
+
+                                <div class="create_compaign_image">
+                                    <img src="assets/images/create-compaign4.jpg" alt="create-compaign"
+                                        class="img-fluid content">
+                                </div>
+                                <!-- end of create_compaign_image -->
+
+
+                                <!-- Note -->
+                                <div class="note-list my-3" style="background-color:lightblue">
+                                    <p class="p1">NOTE: Enter the Buyer Number and Name if “Out-side Route” selected in
+                                        routing option at step 2 Or add New Buyer Details or Buyer Number.
+                                    </p>
+                                </div>
+                                <!-- Note closed -->
+
+                                <div class="create_compaign_image">
+                                    <img src="assets/images/create-compaign5 .jpg" alt="create-compaign"
+                                        class="img-fluid content my-3">
+
+                                </div>
+                                <!-- end of create_compaign_image -->
+
+
+                                <div class="create_compaign_image">
+                                    <ul>
+                                        <li>Select existing IVR if “IVR” selected in routing option at Step 2.
+                                            IVR routing sense all Interecative Voice call response, they uses nodes and
+                                            caller
+                                            propmt to route traffic & routing plan.</li>
+                                    </ul>
+                                    <img src="assets/images/create-compaign6.jpg" alt="create-compaign"
+                                        class="img-fluid content my-3">
+                                    <p class="p1"><b>Click on SAVE AND CONTINUE.</b></p>
+                                </div>
+                                <!-- end of create_compaign_image -->
+
+                                <!-- SET LIVE -->
+                                <div class="adding_target">
+                                    <h6><b>Step 4- SET IT LIVE</b></h6>
+                                    <p class="p1">To check your tracking Number Enter the TFN number and call the
+                                        Publisher, verify
+                                        that is
+                                        routed to your Target correctly.</p>
+                                    <ul class="set__live">
+                                        <li>Select existing TFNs Or Add New TFNs to route Calls.</li>
+                                        <img src="assets/images/create-compaign7.jpg" alt="create-compaign"
+                                            class="img-fluid content my-4">
+                                        <p class="p1">Click on <b>SAVE AND CONTINUE and Your Campaign is Live.</b></p>
+
+                                        <li class="create-compaign">
+                                            <p class="p1"><b>Campaign is created.</b></p>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <!-- end of SET LIVE  -->
+
+
+                            </div>
+                            <!-- col closed -->
+                        </div>
+                        <!-- row closed -->
+                    </div>
+                    <!-- container closed -->
+                </section>
+                <!--  section closed-->
+            </div>
+            <!-- end of content-section -->
+
+
+
+
+            <!--=============================
+    chat-box
+    =============================-->
+            <div id="body">
+                <div id="chat-circle" class="btn btn-raised">
+                    <div id="chat-overlay"></div>
+                    <i class="ti-location-arrow"></i>
+                </div>
+
+                <div class="chat-box">
+                    <div class="chat-box-header">
+                        ChatBox
+                        <span class="chat-box-toggle"><i class="ti-close"></i></span>
+                    </div>
+                    <div class="chat-box-body">
+                        <div class="chat-box-overlay">
+                        </div>
+                        <div class="chat-logs">
+
+                        </div>
+                        <!--chat-log -->
+                    </div>
+                    <div class="chat-input">
+                        <form>
+                            <input type="text" id="chat-input" placeholder="Send a message..." />
+                            <button type="submit" class="chat-submit" id="chat-submit"><i
+                                    class="ti-arrow-right"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- end of chat box -->
+    </div>
+    <!-- end of main-content-inner -->
+
+    <!--=====================
+            Footer
+            =====================-->
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#">Getting Started</a>
+                </li>
+                <li><a href="#">Layout</a>
+                </li>
+                <li><a href="#">Content</a>
+                </li>
+                <li><a href="#">Components</a>
+                </li>
+                <li><a href="#">Utilities</a>
+                </li>
+            </ul>
+        </div>
+        <!-- end of container -->
+    </footer>
+    <!-- end of footer -->
+
+    <div class="color-palette">
+        <a id="color-bar"><i class="ti-settings"></i></a>
+        <h4>Theme</h4>
+        <ul class="clearfix">
+            <li>
+                <a href="#" id="blue-wlt"></a>
+            </li>
+            <li>
+                <a href="#" id="gradient-wlt"></a>
+            </li>
+            <li>
+                <a href="#" id="green-wlt"></a>
+            </li>
+            <li>
+                <a href="#" id="red-wlt"></a>
+            </li>
+            <li>
+                <a href="#" id="img-wlt"></a>
+            </li>
+        </ul>
+    </div>
+
+    </main>
+
+    </div>
+    <!-- jquery -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- popper js-->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- bootstrap js-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- slideNav js -->
+    <script src="assets/js/slideNav.js"></script>
+    <!-- custom js -->
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+.paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    
+}
+
+img.content {
+    width: 100%;
+    margin-bottom:5px
+}
+
+.p1{
+    color: black;
+    font-weight: 500;
+}
+p.p1 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: black;
+}
+
+.note_list {
+    padding: 10px;
+    margin: 10px 0;
+   
+}
+ol.note__list {
+   
+    list-style-type: upper-alpha;
+}
+
+.note {
+    background: lightblue;
+    padding: 10px;
+    margin: 10px 0;
+    
+}
+ol.manage-number__list {
+    list-style-type: upper-alpha;
+}

@@ -1,0 +1,14 @@
+.paragraph{
+    font-family: 'Roboto', sans-serif;
+    font-size:20px
+}
+ol.tfn__list p {
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+p.p1 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: black;
+}

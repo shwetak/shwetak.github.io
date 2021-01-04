@@ -1,0 +1,138 @@
+
+/* 
+
+ *{
+     width: 300px;
+ padding-right: 90px;
+} */
+.main-top {
+    background: #067b8a;
+    height: 74px;
+    position: relative;
+    border-radius: 4px 4px 0 0;
+}
+
+.main-top h2 {
+    float: left;
+    margin-left: 10px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 24px;
+    height: 49px;
+    line-height: 1em;
+    padding: 25px 20px 0 15px;
+    min-width: 290px;
+}
+.main-body {
+    background: #fff;
+    padding: 15px 20px 10px 20px;
+    width: 920px;
+}
+#main {
+    padding: 20px 0;
+}
+.form input, .form textarea, .form select {
+    border: 1px solid #CFCFCF;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #5F5E5E;
+    background: #FFF;
+    box-shadow: none;
+    resize: none;
+    font-style: normal;
+    width: 240px;
+}
+.bordered {
+    margin: 5px;
+}
+
+.form-right-box {
+    float: right;
+    width: 220px;
+    color: #555;   
+}
+
+.bordered .inside, .blue-border-wrap .inside {
+    background: #FFF;
+    border: 1px solid #E1E1E1;
+    padding: 15px;
+    border-radius: 4px;
+}
+.bordered .inside-noborder, .bordered .inside-noborder:hover {
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-size: 13px;
+}
+li.last {
+    list-style: none;
+}
+.current-plan em {
+    color: #0B4A54;
+    font-style: normal;
+    font-size: 14px;
+    float: right;
+}
+.current-plan span {
+    display: block;
+    font-size: 11px;
+}
+.current-plan img {
+    float: left;
+    margin-right: 5px;
+}
+
+
+
+/* .bordered .inside, .blue-border-wrap .inside {
+    background: #FFF;
+    border: 1px solid #E1E1E1;
+    padding: 15px;
+    border-radius: 4px;
+} */
+
+.yellow-box {
+    background: #fffeee;
+    border: 5px solid #fffeee;
+    clear: both;
+}
+.yellow-box .inside {
+    background: #FFFFEE;
+    border: 1px solid #EBE9C5;
+    padding: 10px;
+    color: #555;
+}
+.margbot15 {
+    margin-bottom: 15px;
+}
+
+html body button.signup span {
+    font-size: 18px;
+    padding: 10px 25px;
+    display: inline-block !important;
+}
+
+button.signup {
+    background: #067b8a;
+    border-radius: 30px;
+}
+
+button.button, a.button {
+    background: #067b8a;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    padding: 9px 15px;
+    margin-right: 5px;
+    margin-top: -7px;
+    border: 0;
+    text-align: center;
+    display: block;
+    float: left;
+    cursor: pointer;
+    text-decoration: none;
+}

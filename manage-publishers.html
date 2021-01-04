@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- title -->
+    <title>AlivePbx</title>
+    <!-- bootstarap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Manage-publishers css -->
+    <link rel="stylesheet" href="assets/css/manage-publishers.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <!-- themify css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/themify-icons/themify-icons.css">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <!-- login-register css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/login-register.css">
+    <!-- color css -->
+    <link id="main" rel="stylesheet" type="text/css" href="assets/css/color_01.css">
+    <link id="theme" rel="stylesheet" type="text/css" href="assets/css/color_01.css">
+
+</head>
+
+<body>
+    <!-- ======================
+     Pre-loader
+     ====================== -->
+    <div class="preloader">
+        <img src="assets/images/preloader.svg" class="img-fluid" alt="preloader">
+    </div>
+    <!-- ======================
+     page-wrapper
+     ====================== -->
+    <div class="page-wrapper org-theme toggled">
+        <a id="show-sidebar" class="btn btn-sm" href="#">
+            <i class="ti-angle-double-right"></i>
+        </a>
+        <!-- ======================
+     sidebar-wrapper
+     ====================== -->
+        <nav id="sidebar" class="sidebar-wrapper">
+            <div class="sidebar-content">
+                <div class="sidebar-brand">
+                    <a href="#">AlivePbx</a>
+
+                    <div id="close-sidebar">
+                        <i class="ti-close"></i>
+                    </div>
+                    <!-- end of close-sidebar -->
+                </div>
+                <!-- end of sidebar-brand -->
+                <!-- sidebar-search  -->
+                <!-- ======================
+     sidebar-menu 
+     ====================== -->
+                <div class="sidebar-menu">
+                    <ul>
+                        <li class="side-list active"><a href="introduction.html">Introduction</a></li>
+
+
+                        <li class="sidebar-dropdown">
+
+                            <a><span>AlivePbx User Guide</span></a>
+
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li><a href="dashboard.html">Dashboard</a></li>
+                                    <li><a href="call-reports.html">Call Reports</a></li>
+                                    <li><a href="usage.html">Usage</a></li>
+                                    <li><a href="real-time.html">Real-time</a></li>
+
+                                </ul>
+                            </div>
+
+                        </li>
+
+
+                        <li class="sidebar-dropdown">
+                            <a><span>Campaign</span></a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li><a href="create-campaign.html">Create Campaign</a></li>
+                                    <li><a href="manage-campaign.html">Manage Campaign</a></li>
+                                    <li><a href="manage-extension.html">Manage Extension</a></li>
+
+                                </ul>
+                            </div>
+                        </li>
+
+
+                        <li class="sidebar-dropdown">
+                            <a><span>Manage Users</span></a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li><a href="manage-buyer.html">Manage Buyer</a></li>
+                                    <li><a href="manage-campaign.html">Manage Campaign</a></li>
+                                    <li><a href="manage-publishers.html">Manage Publishers</a></li>
+                                    <li><a href="manage-queue.html">Manage Queue</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+
+                        <li class="side-list active"><a href="ivr.html">IVR</a></li>
+
+                        <li class="sidebar-dropdown">
+                            <a><span>Phone System</span></a>
+                            <div class="sidebar-submenu">
+                                <ul>
+
+                                    <li><a href="ir.html">IR</a></li>
+
+                                    <li><a href="manage-queue.html">Manage Queue</a></li>
+
+                                    <li><a href="manage-extension.html">Manage Extension</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+
+
+                        <li class="sidebar-dropdown">
+                            <a><span>Call Detail Records</span></a>
+                            <div class="sidebar-submenu">
+                                <ul>
+
+                                    <li><a href="cdr-records.html">CDR Records</a></li>
+
+                                    <li><a href="queue-cdr.html">Queue CDR</a></li>
+
+                                    <li><a href="queue-cdr-outbound.html">Queue CDR Outbound</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a><span>TFN</span></a>
+                            <div class="sidebar-submenu">
+                                <ul>
+
+                                    <li><a href="view-tfn.html">View TFN</a></li>
+
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- end of sidebar-submenu -->
+
+
+
+
+                        <li class="side-list active"><a href="login_register.html">Signin</a></li>
+
+                    </ul>
+                </div>
+                <!-- sidebar-menu  -->
+            </div>
+            <!-- sidebar-content  -->
+        </nav>
+        <!-- =============================
+       page-content 
+       =============================-->
+        <main class="page-content">
+
+            <!--=============================
+      doc-head-section 
+      =============================-->
+            <div class="doc-head-section">
+                <div class="header">
+                    <nav class="navbar navbar-expand-lg navbar-light with-sidebar">
+                        <a class="navbar-brand brand-name" href="#">AlivePbx</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="ti-menu"></span>
+                        </button>
+                        <!-- end of navbar-toggler -->
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                                <li class="nav-item"><a class="nav-link" href="pricing.html">PRICING</a></li>
+                                <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                                <li class="nav-item"><a class="nav-link" href="features.html">FEATURES</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+                            </ul>
+                            <!-- end of navbar-nav -->
+                            <!--=============================
+              search-wrapper 
+              =============================-->
+                            <form class="form-inline my-2 my-lg-0">
+                                <div class="search-wrapper">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                </div>
+                            </form>
+                            <!-- end of search-wrapper -->
+                        </div>
+                        <!-- end of collapse -->
+                    </nav>
+                    <!-- end of navbar -->
+                </div>
+                <!-- end of header -->
+            </div>
+            <!-- end of doc-head-section -->
+            <!-- =============================
+         doc-head-section 
+         =============================-->
+
+
+            <div class="clearfix main-content">
+                <section class="content">
+                    <div class="container">
+
+                        <div class="row">
+                            <div class="col-md-8 col-12">
+                                <h3>Managing Publisher</h3>
+                                <p class="paragraph">“A <strong>Publisher</strong> is a Partner that is responsible for
+                                    sending
+                                    calls to your Campaigns”. Adding a Publisher to a campaign assigns a unique
+                                    Tracking Number that routes, reports & attributes the calls they generate.
+                                    Publishers receive a unique Tracking Number for prompting the campaign and
+                                    routing calls to targets in your routing plan.<br>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- row closed -->
+
+                        <div class="row">
+                            <div class="col-md-8">
+                                <p class="p1"> To change a Publisher’s detail-</p>
+                                <div class="manage-publisher">
+                                    <ol class="manage__publisher">
+                                        <li>
+                                            <p class="p1">Go to your account, navigate to the Manage Users from the main
+                                                menu and
+                                                click on Manage Publisher You can see the list of Publishers select one
+                                                by
+                                                using filter option at the right Corner . You will get your publisher.
+                                                Follow these Steps:</p>
+                                        </li>
+
+                                    </ol>
+                                </div>
+                                <!--manage-publisher closed-->
+                                <div class="manage-publisher_img">
+                                    <img src="assets/images/manage-publisher.jpg" alt="manage-publisher"
+                                        class="img-fluid content my-3">
+                                </div>
+                                <!-- manage-publisher_img closed -->
+                                <p class="p1">For example, it would look like this:</p>
+                                <div class="manage-publisher_img">
+                                    <img src="assets/images/manage-publisher2.jpg" alt="manage-publisher"
+                                        class="img-fluid content my-3">
+                                </div>
+                                <!-- manage-publisher_img closed -->
+                                <p class="p1">To Manage a publisher follow the below steps. </p>
+
+                                <div class="manage-publisher_list">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <h6>&#10146;Edit Publisher</h6>
+                                            <h6>&#10146;Queue</h6>
+                                            <h6>&#10146;Add Buyer</h6>
+                                            <h6>&#10146;Settings</h6>
+                                            <h6>&#10146;View Reports </h6>
+                                            <h6>&#10146;Delete </h6>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--manage-publisher_list closed  -->
+                                <div class="manage-publisher_img">
+                                    <img src="assets/images/manage-publisher3.jpg" alt="manage-publisher"
+                                        class="img-fluid content my-3">
+                                </div>
+
+                                <!-- manage-publisher_img closed -->
+
+                                <!--manage-publisher_list closed  -->
+
+
+                                <div class="manage-publisher_list">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <h6>&#10146;Edit Publisher</h6>
+                                            <p class="p1">Go to Manage User & select <b>Manage Publisher</b>.
+                                                To Edit Publisher click on Edit icon in Action bar for respective
+                                                Publisher,
+                                                Click on “Edit
+                                                Publisher” Button & Change the below details.</p>
+                                            <!--manage-publisher_list closed  -->
+                                            <div class="manage-publisher_img">
+                                                <img src="assets/images/edit-publisher.jpg" alt="manage-publisher"
+                                                    class="img-fluid content my-3">
+                                            </div>
+                                            <!-- manage-publisher_img closed -->
+
+                                            <p class="p1">For example, it would look like this:</p>
+                                            <div class="manage-publisher_img">
+                                                <img src="assets/images/manage-publisher4.jpg" alt="manage-publisher"
+                                                    class="img-fluid content">
+                                            </div>
+
+                                            <!-- manage-publisher_img closed -->
+
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--  -->
+
+
+                                <div class="manage-publisher_list">
+                                    <ol style="list-style-type: upper-alpha;">
+                                        <li>
+                                            <h6>Full Name
+                                        </li>
+                                        <li>
+                                            <h6>Email</h6>
+                                        </li>
+                                        <li>
+                                            <h6>Contact</h6>
+                                        </li>
+                                        <li>
+                                            <h6>Price Per TFN($)</h6>
+                                        </li>
+                                        <li>
+                                            <h6>Password</h6>
+                                        </li>
+                                        <li>
+                                            <h6>Confirm Password</h6>
+                                        </li>
+                                        <li>
+                                            <h6>Choose Role</h6>
+                                        </li>
+                                    </ol>
+
+                                    </h6>
+
+                                </div>
+                                <!-- manage-publisher_list closed -->
+                                <p class="p1">If you do not want to Edit then simply click the “Cancel Button”.</p>
+
+                                <div class="manage-publisher_list">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <h6>&#10146;Queue</h6>
+                                            <p class="p1">Go to Manage Users & select <b>Manage Publisher.</b>
+                                                To define unique Publisher’s Queue where you can group the calls &
+                                                distribute
+                                                them, then you
+                                                can use “Add Queue”.
+                                                Click on &nbsp;<b>Queue</b> icon in Action bar for respective
+                                                Publisher Click on
+                                                “Add Queue”
+                                                Button
+                                                &
+                                                follow the Steps.
+                                            </p>
+                                        </li>
+                                        <div class="manage-publisher_img">
+                                            <img src="assets/images/queue-publisher.jpg" alt="manage-publisher"
+                                                class="img-fluid content my-3">
+
+                                        </div>
+
+                                        <p class="p1">For example, it would look like this:</p>
+                                        <div class="manage-publisher_img">
+                                            <img src="assets/images/manage-publisher5.jpg" alt="manage-publisher"
+                                                class="img-fluid content my-3">
+
+                                        </div>
+
+                                        <!-- manage-publisher_img closed -->
+                                    </ul>
+
+                                </div>
+                                <!-- manage-publisher_list closed -->
+
+
+                                <div class="manage-publisher_list">
+                                    <ol style="list-style-type: upper-alpha;">
+                                        <li>
+                                            <h6>Name</h6>
+                                        </li>
+                                        <li>
+                                            <h6>Email</h6>
+                                        </li>
+                                        <li>
+                                            <h6>Contact</h6>
+                                        </li>
+                                        <li>
+                                            <h6>Address($)</h6>
+                                        </li>
+                                        <li>
+                                            <h6>Price Per TFN($)</h6>
+                                        </li>
+                                        <li>
+                                            <h6>Buffer Time(in seconds)</h6>
+                                        </li>
+                                        <li>
+                                            <h6>Password</h6>
+                                        </li>
+                                        <li>
+                                            <h6>Confirm Password</h6>
+                                        </li>
+
+                                        </li>
+                                    </ol>
+                                </div>
+                                <!-- manage-publisher_list closed -->
+
+                                <!-- Note -->
+
+                                <div class="note" style="background-color:lightblue">
+                                    <p class="p1">NOTE: If you do not want to change then click the “Cancel
+                                        Button”.</p>
+
+                                </div>
+                                <!-- Note closed -->
+                                <div class="manage-publisher_list">
+
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <h6>&#10146;Add Buyer</h6>
+                                            <p class="p1">Go to Manage Users & select <b>Manage Publisher.</b>“A Buyer
+                                                is a Partner that
+                                                is receiving
+                                                your calls”. To Add Buyer click on &nbsp;<b>Add Buyer</b> icon in Action
+                                                bar for
+                                                respective
+                                                Publisher
+                                                Click on “Add Buyer“ Button & follow the Steps.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- manage-publisher_list closed -->
+
+                                <div class="manage-publisher_img">
+                                    <img src="assets/images/buyer-publisher.jpg" alt="manage-publisher"
+                                        class=" img-fluid content my-3">
+
+                                </div>
+
+                                <!-- manage-publisher_img closed -->
+                                <p class="p1">For example, it would look like this:</p>
+
+                                <div class="manage-publisher_img">
+                                    <img src="assets/images/add-new-buyer2.jpg" alt="buyer-img"
+                                        class="img-fluid content my-3">
+
+                                </div>
+
+                                <!-- manage-publisher_img closed -->
+                                <div class="manage-publisher_list">
+
+                                    <ol style="list-style-type: upper-alpha;">
+                                        <li>
+                                            <h6>Full Name</h6>
+                                        </li>
+                                        <li>
+                                            <h6>Email</h6>
+                                        </li>
+                                        <li>
+                                            <h6>Contact</h6>
+                                        </li>
+                                        <li>
+                                            <h6>Address($)</h6>
+                                        </li>
+                                        <li>
+                                            <h6>Price Per TFN($)</h6>
+                                        </li>
+                                        <li>
+                                            <h6>Buffer Time(in seconds)</h6>
+                                        </li>
+                                        <li>
+                                            <h6>Password</h6>
+                                        </li>
+                                        <li>
+                                            <h6>Confirm Password</h6>
+                                        </li>
+                                    </ol>
+                                </div>
+                                <!-- manage-publisher_list closed -->
+
+
+
+                                <div class="note" style="background-color:lightblue">
+                                    <p class="p1"> NOTE: If you do not want to edit then click the “Cancel Button”.
+
+                                    </p>
+
+                                </div>
+                                <!-- Note closed -->
+
+                                <div class="manage-publisher_list">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <h6>&#10146;Settings</h6>
+                                            <p class="p1">Go to Manage Users & select <b>Manage Publisher.</b>
+                                                To manage Publisher’s settings click on <b>Settings</b> icon in Action
+                                                bar for
+                                                respective
+                                                Publisher
+                                                & check the requirements.
+                                            </p>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <!-- manage-publisher_list closed -->
+
+                                <div class="manage-publisher_img">
+                                    <img src="assets/images/change-publisher-settings.jpg" alt="content-img"
+                                        class="img-fluid content my-3">
+                                </div>
+
+                                <!-- manage-publisher_img closed -->
+                                <p class="p1">For example, it would look like this:</p>
+                                <div class="manage-publisher_img">
+                                    <img src="assets/images/manage-publisher6.jpg" alt="content-img"
+                                        class="img-fluid content my-3">
+                                </div>
+                                <!-- manage-publisher_img closed -->
+
+                                <div class="manage-publisher_list">
+                                    <ol style="list-style-type: upper-alpha;">
+                                        <li>
+                                            <p class="p1">Enable Queue monitor: If you are using enable Queue-Monitor
+                                                then this
+                                                Publisher will
+                                                allow
+                                                to access Queue-monitor screen.</p>
+                                        </li>
+                                        <li>
+                                            <p class="p1">Phone System:</p>
+                                        </li>
+                                        <li>
+                                            <p class="p1">Daily TFN ($): Set the Daily TFN limitations for this
+                                                Publisher.</p>
+                                        </li>
+                                        <li>
+                                            <p class="p1">Monthly TFN ($): Set the Monthly TFN limitations for this
+                                                Publisher.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="p1">Enable Recording: You want to show the Recordings in
+                                                Publisher’s CDR
+                                                reports or
+                                                not.</p>
+                                        </li>
+                                        <li>
+                                            <p class="p1">Enable inside routing: You want to enable your inside
+                                                routing during
+                                                campaign creation
+                                                or
+                                                not.</p>
+                                        </li>
+                                        <li>
+                                            <p class="p1">Call Reducer: How many calls publisher can check in CDR
+                                                reports.</p>
+                                        </li>
+                                        <li>
+                                            <p class="p1">Buyer Limit : Bound to Buyer limit</p>
+                                        </li>
+                                        <li>
+                                            <p class="p1">Display CNUM: You want to display your CID reports or not .
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="p1">Enable Outside Routing: You want to enable your outside
+                                                routing during
+                                                campaign
+                                                creation
+                                                or not.</p>
+                                        </li>
+                                        <li>
+                                            <p class="p1">Display wallet: ?</p>
+                                        </li>
+                                    </ol>
+
+                                </div>
+                                <!-- manage-publisher_list closed -->
+                                <div class="manage-publisher_list">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <h6>&#10146;View Reports</h6>
+                                            <p class="p1">Go to Manage Users & select <b>Manage Publisher.</b>
+                                                To View reports click on <b>View Reports</b>&nbsp;icon in Action bar for
+                                                respective
+                                                Publisher
+                                                Click on
+                                                “view reports “Button & follow the Steps.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--  manage-publisher_list closed-->
+
+                                <div class="manage-publisher_img">
+                                    <img src="assets/images/publisher-view-report.jpg" alt="manage-publisher"
+                                        class="img-fluid content my-3">
+                                </div>
+                                <!-- manage-publisher_img closed -->
+
+                                <p class="p1">For example, it would look like this:</p>
+                                <div class="manage-publisher_img">
+                                    <img src="assets/images/manage-publisher7.jpg" alt="manage-publisher"
+                                        class="img-fluid content my-3">
+                                </div>
+                                <!-- manage-publisher_img closed -->
+
+                                <div class="manage-publisher_list">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <h6>&#10146;Delete </h6>
+                                            <p class="p1">Go to Manage Users & select <b>Manage Publisher.</b>
+                                                To delete publisher click on <b>Delete</b> icon in Action bar for
+                                                respective.
+                                                You can simply
+                                                delete
+                                                the publisher and related details to stop the functions.
+
+                                            </p>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--  manage-publisher_list closed-->
+                                <div class="manage-publisher_img">
+                                    <img src="assets/images/manage-publisher8.jpg" alt="manage-publisher"
+                                        class="img-fluid content my-3">
+                                </div>
+                                <!-- manage-publisher_img closed -->
+
+                            </div>
+                            <!-- col closed -->
+                        </div>
+                        <!-- row closed -->
+
+
+                    </div>
+                    <!-- container closed -->
+                </section>
+                <!-- section closed -->
+            </div>
+
+            <!-- end of content-section -->
+
+        </main>
+
+
+
+        <!--=============================
+    chat-box
+    =============================-->
+        <div id="body">
+            <div id="chat-circle" class="btn btn-raised">
+                <div id="chat-overlay"></div>
+                <i class="ti-location-arrow"></i>
+            </div>
+
+            <div class="chat-box">
+                <div class="chat-box-header">
+                    ChatBox
+                    <span class="chat-box-toggle"><i class="ti-close"></i></span>
+                </div>
+                <div class="chat-box-body">
+                    <div class="chat-box-overlay">
+                    </div>
+                    <div class="chat-logs">
+
+                    </div>
+                    <!--chat-log -->
+                </div>
+                <div class="chat-input">
+                    <form>
+                        <input type="text" id="chat-input" placeholder="Send a message..." />
+                        <button type="submit" class="chat-submit" id="chat-submit"><i
+                                class="ti-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- end of chat box -->
+    </div>
+    <!-- end of main-content-inner -->
+
+    <!--=====================
+            Footer
+            =====================-->
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#">Getting Started</a>
+                </li>
+                <li><a href="#">Layout</a>
+                </li>
+                <li><a href="#">Content</a>
+                </li>
+                <li><a href="#">Components</a>
+                </li>
+                <li><a href="#">Utilities</a>
+                </li>
+            </ul>
+        </div>
+        <!-- end of container -->
+    </footer>
+    <!-- end of footer -->
+
+    <div class="color-palette">
+        <a id="color-bar"><i class="ti-settings"></i></a>
+        <h4>Theme</h4>
+        <ul class="clearfix">
+            <li>
+                <a href="#" id="blue-wlt"></a>
+            </li>
+            <li>
+                <a href="#" id="gradient-wlt"></a>
+            </li>
+            <li>
+                <a href="#" id="green-wlt"></a>
+            </li>
+            <li>
+                <a href="#" id="red-wlt"></a>
+            </li>
+            <li>
+                <a href="#" id="img-wlt"></a>
+            </li>
+        </ul>
+    </div>
+
+    </main>
+
+    </div>
+    <!-- jquery -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- popper js-->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- bootstrap js-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- slideNav js -->
+    <script src="assets/js/slideNav.js"></script>
+    <!-- custom js -->
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,177 @@
+
+.price-plans {
+    padding: 100px 0;
+    position: relative;
+    background: #edf8f9;
+}
+.yearly-monthly {
+    text-align: center;
+    margin-top: -132px;
+}
+.yearly-monthly-wrap {
+    display: inline-block;
+    background: #edf8f9;
+    border-radius: 43px;
+    padding: 10px;
+}
+.price-period li.active a {
+    color: #5a4002;
+}
+.btn.btn-monthly a, .btn.btn-yearly a {
+    display: block;
+}
+.price-period .btn-monthly a {
+    padding: 15px 60px 15px 55px;
+}
+.price-period li.active {
+    color: #5a4002;
+    background-color: #f9cd01;
+}
+
+.btn.btn-monthly, .btn.btn-yearly {
+    font-size: 17px;
+    line-height: 13px;
+    padding: 0;
+}
+
+
+.price-period .btn-monthly {
+    border-radius: 0 25px 25px 0;
+    border-left: 0;
+}
+
+
+.price-period li a {
+  
+    text-decoration: none;
+}
+.price-period .btn-yearly a {
+    padding: 15px 65px;
+}
+/* btn yearly */
+.btn.btn-yearly {
+font-size: 17px;
+line-height: 13px;
+padding: 0;
+}
+
+
+
+.price-period .btn-yearly {
+    border-radius: 25px 0 0 25px;
+    float: left;
+    border-right: 0;
+}
+.price-period li {
+    color: #4a9fa7;
+    background-color: #edf8f9;
+    border: 1px solid #cce2e4;
+    
+}
+.btn.btn-yearly a {
+    display: block;
+}
+.btn:hover {
+    background-color: #ffdd3c;
+}
+
+/* Recomended */
+
+
+.plans {
+    margin-top: 60px;
+    position: relative;
+}
+.plan {
+    text-align: center;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: 10px;
+}
+.plan-heading {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    border: 1px solid #c1dbde;
+}
+.plan-name {
+    font-size: 22px;
+    color: #008d9b;
+    font-weight: 700;
+    margin: 0;
+}
+.plan-name__desc {
+    font-size: 12px;
+    color: #008d9b;
+}
+.plan-content {
+    border-top: 0;
+    padding-top: 25px;
+}
+.plan-price {
+    font-size: 21px;
+    font-weight: 700;
+    color: #3f4246;
+    margin: 0;
+}
+.plan-users {
+    font-size: 17px;
+    font-weight: 700;
+    color: #3f4246;
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+.pricing-small .plan-features ul {
+    margin-left: 125px;
+}
+.plan-features ul {
+   
+    text-align: left;
+}
+.plan-content, .plan-heading {
+    border: 1px solid #c1dbde;
+}
+
+ul.nav-tabs.price-period {
+    padding: 0;
+}
+.tab-content>.active {
+    display: flex;
+}
+
+
+
+.plan-third {
+    background-color: #fff;
+    padding: 15px 0 42px;
+    position: relative;
+    top: -15px;
+    border: 1px solid #eff4f5;
+}
+.plan-third .plan-third-title {
+    font-size: 14px;
+    color: #5fb8c1;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    top: -45px;
+}
+
+.plan-third .plan-heading {
+    border: 0;
+    border-bottom: 1px solid #c1dbde;
+}
+.plan-third .plan-content {
+    border: 0;
+}
+
+
+.btn.btn-standard, .btn.btn-large {
+    background-color: #f9cd01;
+    font-size: 17px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    color: #4d4d4d;
+    padding: 14px 40px 14px 30px;
+}
+
+
