@@ -1,0 +1,17 @@
+
+p.paragraph{
+    font-family: 'Roboto', sans-serif;
+    font-size:20px
+}
+img.content {
+    width: 100%;
+    margin-bottom:5px
+}
+p.p1 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: black;
+}
+.note-list{
+    padding: 10px;
+}
